@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-* {
-    margin:auto;
-    padding: auto;
-}
+
 :root {
     --primary-color: #1e91d6;
     --secondary-color: #0072bb;
@@ -29,11 +26,29 @@ h2, h3, h4, h5, h6 {
 
 .hero h1 {
     position: absolute;
-    text-align: center;
+	text-align: center;
+	font-size: 2rem;
+	text-shadow: 3px 3px 5px #777;
+    margin-left: 40%;
+    margin-top: 20px;
 }
 .hero article {
     position: absolute;
+	bottom: 50px;
+	background: var(--accent1-color);
+    opacity: .9;
+    color: white;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
+}
+
+.hero article img {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: 4px;
+    padding-left: 5px;
 }
 
 p {
@@ -46,11 +61,16 @@ p {
     width: 100%;
     height: auto;
 }
-.hero nav {
+
+.hero div {
     position: relative;
 }
 
 
 a:link {
     text-decoration: none;
+}
+
+section {
+    margin: 10px;
 }
