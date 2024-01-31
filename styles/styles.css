@@ -19,6 +19,7 @@ main {
     
 }
 main img {
+    display: grid;
     width: 150px;
     height: auto;
     float: right;
