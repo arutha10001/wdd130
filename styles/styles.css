@@ -52,6 +52,7 @@ img {
 }
 p {
     padding: 0;
+    text-align: left;
 }
 aside {
     width: 20rem;
