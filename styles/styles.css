@@ -68,6 +68,7 @@ aside {
 aside img{
     width: 150px;
     height: auto;
+    
 }
 footer{
     margin-top: 15px;
@@ -83,13 +84,14 @@ footer{
     color:black;
 }
 
-/*aside {
-    width: 11em;
+aside {
+    width: 15em;
     text-align: right;
     position: relative;
-}*/
+}
 aside h2 {
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 50px;
+    
 }
