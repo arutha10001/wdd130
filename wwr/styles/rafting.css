@@ -107,7 +107,21 @@ p {
     flex: 20%;
     padding: 5px;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.paragraph {
+    flex: 1;
+}
+
+.image {
+    max-width: 300px;
+    height: auto;
+    margin: 0 20px;
+}
 
 figure {
     border: thin #c0c0c0 solid;
