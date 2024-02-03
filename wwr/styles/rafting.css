@@ -100,14 +100,20 @@ p {
     position: relative;
     
 }
-.horizont section {
-    display: grid;
-
+.row {
+    display: flex;
 }
+.column {
+    flex: 20%;
+    padding: 5x;
+}
+
+
 figure {
     border: thin #c0c0c0 solid;
-    display: column;
-    align-items: center;
+    display: grid;
+    
+    
     padding: 5px;
     max-width: 220px;
     margin: auto;
