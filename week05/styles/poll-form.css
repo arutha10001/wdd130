@@ -10,9 +10,9 @@ box-sizing: border-box;
 
 body {
     font-family: "Libre Baskerville", serif;
-    font-size: 14px;
-    color: black;
-    background: whitesmoke;
+    font-size: 1.2em;
+    color: #333;
+    background: lightgray;
 }
 header{
     margin: 0 auto;
@@ -30,15 +30,24 @@ form {
     margin: 0;
     padding: 1rem;
     border: 1px solid black;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     background-color: lightseagreen;
+    display: grid;
+}
+form {
+    width: 840px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    background-color: lightsteelblue;
     display: grid;
 }
 fieldset {
     display: grid;
     grid-gap: 0.5rem;
     margin: 1rem;
-    border: 1px black;
+    border: 1px solid black;
     padding: 1rem;
 }
 legend {
