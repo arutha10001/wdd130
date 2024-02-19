@@ -228,3 +228,30 @@ button:hover {
     
     color: var(--primary-color);
 }
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 100px; 
+    
+}
+
+thead, th{
+    background-color: lightsteelblue;
+}
+
+td {
+    background-color: var(--accent1-color);
+}
+
+ th, td {
+    padding: 0.5rem;
+ }
+
+ caption {
+    font-weight: 700;
+ }
+ .submit, table {
+    margin: 10px auto; 
+    width: 800px; 
+}
