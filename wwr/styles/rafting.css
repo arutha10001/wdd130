@@ -215,14 +215,14 @@ section {
 }
 button {
     align-self: center;
-    margin: 1rem;
+    
     background-color: var(--accent1-color);
     color: #fff;
     border: 1px solid #000;
     border-radius: 1rem;
     padding: .3rem;
     font-size: 25px;
-    width: 800px;
+    width: 700px;
 }
 button:hover {
     
