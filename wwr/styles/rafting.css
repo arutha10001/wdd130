@@ -50,9 +50,14 @@ h1 {
     color: var(--secondary-color)
 }
 
-h2, h3, h4, h5, h6 {
+h2, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
+}
+h3 {
+    font-family: var(--heading-font);
+    color: black;
     text-align: center;
 }
 fieldset h2 {
@@ -105,7 +110,7 @@ p {
 
 .row {
     display: flex;
-    background-color: var(--accent2-color);
+    background-color: black;
 }
 
 .contact-form {
