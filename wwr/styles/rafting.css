@@ -110,7 +110,7 @@ p {
 
 .row {
     display: flex;
-    background-color: black;
+    background-color: var(--accent2-color);
 }
 
 .contact-form {
